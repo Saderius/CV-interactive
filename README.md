@@ -1,11 +1,13 @@
-<div align="center">
+# Resume | Patryk Mroziński
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+This is a printable, interactive CV/resume created as a web application. 
+It uses React and Tailwind CSS for styling, specifically configured so that when printed (via browser 'Print' dialogue `Ctrl+P`), it formats cleanly on an A4 page without any unnecessary UI elements like buttons or website styling.
 
-  <h1>Built with AI Studio</h2>
+## Technologies Used
+- React
+- Vite
+- Tailwind CSS
+- Lucide React (Icons)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Deployment
+This site is configured with relative base paths (`base: './'`) to be seamlessly hosted on GitHub Pages or any static file host.
