@@ -172,7 +172,7 @@ export default function App() {
         <div className="flex flex-col gap-4 flex-1 lg:w-3/12 print:w-[25%]">
           
           {/* Actions Card - Hidden on print */}
-          <div className="bg-bento-card border border-bento-border rounded-[20px] p-5 shadow-[0_1px_3px_rgba(0,0,0,0.02)] flex flex-col print:hidden">
+          <div className="order-last lg:order-first bg-bento-card border border-bento-border rounded-[20px] p-5 shadow-[0_1px_3px_rgba(0,0,0,0.02)] flex flex-col print:hidden">
             <div className="text-[11px] font-bold uppercase tracking-[1px] text-bento-text-sec mb-4">Portfolio Connectivity</div>
             <div className="flex flex-col gap-2.5">
 
@@ -183,8 +183,8 @@ export default function App() {
                 <Printer size={16} /> Print A4 CV
               </button>
               <a 
-                href="/Patryk_Mrozinski_CV.pdf"
-                download="Patryk_Mrozinski_CV.pdf"
+                href="/Resume_PMrodo.pdf"
+                download="Resume_PMrodo.pdf"
                 className="flex items-center justify-center gap-2 p-3 rounded-xl text-[13px] font-semibold cursor-pointer transition-all border border-bento-border text-bento-primary hover:bg-slate-50"
               >
                 <Download size={16} /> Download PDF
