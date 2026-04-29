@@ -1,5 +1,6 @@
 import { Printer, Download, ExternalLink } from 'lucide-react';
 import React, { useEffect, useRef } from 'react';
+import resumePdfUrl from './Resume_PMrodo.pdf';
 
 export default function App() {
   const printRequested = useRef(false);
@@ -183,7 +184,7 @@ export default function App() {
                 <Printer size={16} /> Print A4 CV
               </button>
               <a 
-                href="./Resume_PMrodo.pdf"
+                href={resumePdfUrl}
                 download="Resume_PMrodo.pdf"
                 className="flex items-center justify-center gap-2 p-3 rounded-xl text-[13px] font-semibold cursor-pointer transition-all border border-bento-border text-bento-primary hover:bg-slate-50"
               >
